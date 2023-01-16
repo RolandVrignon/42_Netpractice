@@ -64,9 +64,7 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
 
 <table>
   <tr>
-   <td><strong>Partie Réseaux</strong>
-<p>
-<strong>Partie Hotes</strong>
+   <td>
    </td>
    <td>Octet 1
    </td>
@@ -80,40 +78,150 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
   <tr>
    <td>Classe A
    </td>
-   <td>0XXX XXXX
+   <td>Réseau
    </td>
-   <td>XXXX XXXX
+   <td>Hôtes
    </td>
-   <td>XXXX XXXX
+   <td>Hôtes
    </td>
-   <td>XXXX XXXX
+   <td>Hôtes
    </td>
   </tr>
   <tr>
    <td>Classe B
    </td>
-   <td>XXXX XXXX
+   <td>Réseau
    </td>
-   <td>XXXX XXXX
+   <td>Réseau
    </td>
-   <td>XXXX XXXX
+   <td>Hôtes
    </td>
-   <td>XXXX XXXX
+   <td>Hôtes
    </td>
   </tr>
   <tr>
    <td>Classe C
    </td>
-   <td>110X XXXX
+   <td>Réseau
    </td>
-   <td>XXXX XXXX
+   <td>Réseau
    </td>
-   <td>XXXX XXXX
+   <td>Réseau
    </td>
-   <td>XXXX XXXX
+   <td>Hôtes
    </td>
   </tr>
 </table>
+
+
+<table>
+  <tr>
+   <td colspan="4" ><strong>Masques de sous réseaux</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Classiques</strong>
+   </td>
+   <td><strong>CIDR</strong>
+   </td>
+   <td><strong>Hôtes</strong>
+   </td>
+   <td><strong>Sous Réseaux</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.0
+   </td>
+   <td>/24
+   </td>
+   <td>256
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.128
+   </td>
+   <td>/25
+   </td>
+   <td>128
+   </td>
+   <td>2
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.192
+   </td>
+   <td>/26
+   </td>
+   <td>64
+   </td>
+   <td>4
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.224
+   </td>
+   <td>/27
+   </td>
+   <td>32
+   </td>
+   <td>8
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.240
+   </td>
+   <td>/28
+   </td>
+   <td>16
+   </td>
+   <td>16
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.248
+   </td>
+   <td>/29
+   </td>
+   <td>8
+   </td>
+   <td>32
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.252
+   </td>
+   <td>/30
+   </td>
+   <td>4
+   </td>
+   <td>64
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.254
+   </td>
+   <td>/31
+   </td>
+   <td>2
+   </td>
+   <td>128
+   </td>
+  </tr>
+  <tr>
+   <td>255.255.255.255
+   </td>
+   <td>/32
+   </td>
+   <td>1
+   </td>
+   <td>256
+   </td>
+  </tr>
+</table>
+
+
 </br>
 </br>
 </br>
