@@ -1,4 +1,3 @@
-
 <p>
 <strong>Adresses IP</strong>
 </p>
@@ -115,8 +114,10 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
    </td>
   </tr>
 </table>
-
-
+</br>
+</br>
+</br>
+</br>
 <p>
 <strong>Exercice 1 :</strong>
 </p>
@@ -142,6 +143,10 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
 2^4 = 16 sous réseaux.
 </p>
 <p>
+</br>
+</br>
+</br>
+</br>
 <strong>Exercice 2 :</strong>
 </p>
 <p>
@@ -172,6 +177,10 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
 <strong>Adresse de diffusion finale = 180.35.143.255</strong>
 </p>
 <p>
+</br>
+</br>
+</br>
+</br>
 <strong>Exercice 3 :</strong>
 </p>
 <p>
@@ -320,4 +329,3 @@ On choisit la colonne aux 4 sous réseaux :
    </td>
   </tr>
 </table>
-
