@@ -233,7 +233,7 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
 <strong>Combien d'hôtes et de sous réseaux peut-il y avoir avec le masque suivant ? </strong>
 </p>
 <p>
-<strong>255.255.255.240</strong>
+<strong>255.255.240.0</strong>
 </p>
 <p>
 240.0 = <strong>1111 0000</strong> . <strong>0000 0000</strong>
