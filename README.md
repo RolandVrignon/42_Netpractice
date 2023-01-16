@@ -1,20 +1,22 @@
 
-**Adresses IP : **
-
-**octet 1 . octet 2 . octet 3 . octet 4**
-
-**1 octet = 8 bits**
-
+<p>
+<strong>Adresses IP</strong>
+</p>
+<p>
+<strong>octet 1 . octet 2 . octet 3 . octet 4</strong>
+</p>
+<p>
+<strong>1 octet = 8 bits</strong>
+</p>
+<p>
 XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
-
-**Exemple:**
-
-10000000.00001010.11011000.00100111
-
-=
-
-128.10.216.39
-
+</p>
+<p>
+<strong>Exemple:</strong>
+</p>
+<p>
+10000000.00001010.11011000.00100111 = 128.10.216.39
+</p>
 
 <table>
   <tr>
@@ -115,42 +117,69 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
 </table>
 
 
-**Combien d'hôtes et de sous réseaux peut-il y avoir avec le masque suivant ? **
-
-**255.255.255.240**
-
-240.0 = **1111 0000** . **0000 0000**
-
-**12 bits pour les hôtes : **
-
-2^12 = 4096 => - 2 ( - ip de réseau - ip de diffusion) => **4094 hôtes**
-
-**4 bits pour les sous réseaux :**
-
+<p>
+<strong>Exercice 1 :</strong>
+</p>
+<p>
+<strong>Combien d'hôtes et de sous réseaux peut-il y avoir avec le masque suivant ? </strong>
+</p>
+<p>
+<strong>255.255.255.240</strong>
+</p>
+<p>
+240.0 = <strong>1111 0000</strong> . <strong>0000 0000</strong>
+</p>
+<p>
+<strong>12 bits pour les hôtes : </strong>
+</p>
+<p>
+2^12 = 4096 => - 2 ( - ip de réseau - ip de diffusion) => <strong>4094 hôtes</strong>
+</p>
+<p>
+<strong>4 bits pour les sous réseaux :</strong>
+</p>
+<p>
 2^4 = 16 sous réseaux.
-
-**Un reseau a comme adresse 180.35.128.0 de masque 255.255.240.0. Quelle est l’adresse de diffusion ou broadcast ?**
-
+</p>
+<p>
+<strong>Exercice 2 :</strong>
+</p>
+<p>
+<strong>Un reseau a comme adresse 180.35.128.0 de masque 255.255.240.0. Quelle est l’adresse de diffusion ou broadcast ?</strong>
+</p>
+<p>
 180.35.128.0 est une adresse de classe B. Ce sont donc les deux derniers octets qui définissent la partie hôte.
-
+</p>
+<p>
 240.0 = 1111 0000 . 0000 0000
-
+</p>
+<p>
 128.0 = 1000 0000 . 0000 0000
-
+</p>
+<p>
 1111 0000 . 0000 0000
-
+</p>
+<p>
 1000 0000 . 0000 0000
-
+</p>
+<p>
 = 
-
+</p>
+<p>
 1000 1111 . 1111 1111 = 143.255
-
-**Adresse de diffusion finale = 180.35.143.255**
-
-**Créer 3 sous réseaux sur le réseau suivant : **
-
+</p>
+<p>
+<strong>Adresse de diffusion finale = 180.35.143.255</strong>
+</p>
+<p>
+<strong>Exercice 3 :</strong>
+</p>
+<p>
+<strong>Créer 3 sous réseaux sur le réseau suivant : </strong>
+</p>
+<p>
 192.168.4.0/24
-
+</p>
 
 <table>
   <tr>
@@ -222,10 +251,12 @@ XXXX XXXX . XXXX XXXX . XXXX XXXX . XXXX XXXX
 </table>
 
 
+<p>
 On choisit la colonne aux 4 sous réseaux :
-
-**On a donc 64 hôtes possibles par sous réseaux.**
-
+</p>
+<p>
+<strong>On a donc 64 hôtes possibles par sous réseaux.</strong>
+</p>
 
 <table>
   <tr>
@@ -289,3 +320,4 @@ On choisit la colonne aux 4 sous réseaux :
    </td>
   </tr>
 </table>
+
